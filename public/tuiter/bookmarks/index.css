@@ -1,0 +1,94 @@
+.wd-margin-top {
+    margin-top: 12px;
+}
+.wd-font-20 {
+    font-size: 20px;
+}
+.wd-bookmark-handle {
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.wd-avatar-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-padding-left {
+    padding-left: 12px;
+}
+.wd-padding-top {
+    padding-top: 12px;
+}
+.wd-font-15 {
+    font-size: 15px;
+}
+ .wd-pos-right-up {
+    position: relative;
+    bottom: 45px;
+    left: 60px;
+    width: 90%;
+ }
+ .wd-main-content {
+    max-width: 506px;
+    width: 85%;
+    padding-bottom: 12px;
+    padding-right: 16px;
+ }
+ .wd-bookmark-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+.wd-padding-12 {
+    padding: 12px;
+}
+.wd-title-text {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 480px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+    position: relative;
+    bottom: 5px;
+}
+.wd-pink-icon {
+    width: 12px;
+    height: 12px;
+}
+.wd-pink-link {
+    text-decoration: none;
+    color: rgb(236,48, 86)
+}
+.wd-gray-retweet {
+    width: 15px;
+    height: 15px;
+    filter: invert(65%);
+    position: relative;
+    top: 2px;
+}
+.wd-gray-link {
+    text-decoration: none;
+    color: rgb(110,118,125)
+}
+.wd-gray-comment {
+    width: 16px;
+    height: 16px;
+    filter: invert(65%);
+    position: relative;
+    top: 3px;
+}
+.wd-gray-share {
+    width: 18px;
+    height: 18px;
+    filter: invert(65%);
+    position: relative;
+    top: 2px;
+}
+.wd-padding-left-90 {
+    padding-left: 90px;
+}

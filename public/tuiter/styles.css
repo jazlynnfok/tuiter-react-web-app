@@ -1,0 +1,26 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+.wd-border {
+    border-color: rgb(47,51,54);
+    border-style: solid;
+    border-width: 1px;
+}
+.wd-border-topless {
+    border-color: rgb(47,51,54);
+    border-style: solid;
+    border-top: none;
+    border-width: 1px;
+}
+.wd-fg-color-white {
+    color: white;
+}
+.wd-margin-left {
+    margin-left: 16px;
+}
+.wd-fg-color-lightgray {
+    color: rgb(110,118,125);
+}
+.wd-small-font {
+    font-size: 14px;
+}
