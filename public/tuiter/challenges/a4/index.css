@@ -8,8 +8,9 @@
 }
 .wd-search {
     border-radius: 1rem;
-    background-color: white;
-    border-color: rgb(195, 202, 209);
+    background-color: rgb(235, 240, 241);
+    border-color: rgb(235, 240, 241);
+    color:gray;
     /* border-color: rgb(30,32,35);
     background-color: rgb(30,32,35);
     width: 80%; */
@@ -77,3 +78,10 @@
     right: 70px;
     top: 12px;
 }
+.wd-override-active {
+    text-decoration: underline;
+    text-decoration-color: rgb(29,161,242);
+    color:black;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 3px;
+ }
