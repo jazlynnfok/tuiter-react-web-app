@@ -46,13 +46,6 @@
     /* border-radius: 50%; */
     /* padding-top: 5px; */
 }
-.wd-article-img {
-    /* width: 100px;
-    height: 100px; */
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-}
 .wd-article-title {
     width: 75%;
     min-height: 85px;
