@@ -19,7 +19,6 @@ const HomePostItem = (
 }
  }
 ) => {
-    const roundBorder = {"border-radius": "15px"};
  return(
     <li className="list-group-item">
         <div className="row">
