@@ -6,7 +6,7 @@ const NavigationSidebar = (active) => {
             <i class="fas fa-house-chimney"></i>
             <span class="d-none d-xl-inline">Home</span>
         </a>
-        <a href="../Explore/index.html" class="list-group-item ${active==='explore' ? 'active' : ''}">
+        <a href="../ExploreScreen/index.html" class="list-group-item ${active==='explore' ? 'active' : ''}">
             <i class="fas fa-hashtag"></i> 
             <span class="d-none d-xl-inline">Explore</span>
         </a>      
