@@ -1,0 +1,103 @@
+.wd-padding-top-bottom {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.wd-pos-abs-right {
+    position: absolute;
+    right: 24px;
+}
+.wd-search {
+    border-radius: 1rem;
+    background-color: white;
+    border-color: rgb(195, 202, 209);
+    /* border-color: rgb(30,32,35);
+    background-color: rgb(30,32,35);
+    width: 80%; */
+}
+.wd-height-25 {
+    height: 25px;
+}
+.wd-hyperlink-highlight {
+    color: rgb(29,161,242);
+    font-size: 15px;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+
+}
+.wd-hyperlink {
+    color: rgb(110,118,125);
+    font-size: 15px;
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+.wd-padding-16 {
+    padding: 16px;
+}
+.wd-border-top-thick {
+    border-top-width: 10px;
+}
+.wd-topic {
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+.wd-profile-circle {
+    width: auto;
+    height: 45px;
+    /* border-radius: 50%; */
+    /* padding-top: 5px; */
+}
+.wd-article-title {
+    width: 75%;
+    min-height: 85px;
+}
+.wd-no-right-border {
+    border-right: none;
+}
+.wd-no-left-border {
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.wd-straight-border-left {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.wd-border-left {
+    border-left: 50px;
+}
+.wd-left-padding {
+    position: absolute;
+    right: 70px;
+    top: 12px;
+}
+
+.wd-twitter-gray {
+    background-color:rgb(235, 240, 241);
+}
+.wd-article-img {
+    /* width: 100px;
+    height: 100px; */
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.wd-avatar-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-post-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.wd-post-text {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.wd-fg-color-lightgray {
+    color: rgb(110,118,125);
+}
+
+.wd-pink {
+    color: hotpink;
+}

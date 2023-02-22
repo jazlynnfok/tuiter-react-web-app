@@ -1,0 +1,21 @@
+.wd-fg-color-lightgray {
+    color: rgb(110,118,125);
+}
+.wd-small-font {
+    font-size: 14px;
+}
+.wd-large-font {
+    font-size: 18px;
+}
+.wd-edit-profile-img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    bottom: 65px;
+    left: 16px;
+    /* bottom: 415px; */
+}
+.wd-move-up {
+    position: relative;
+    bottom: 40px;
+}

@@ -15,8 +15,8 @@ const PostSummaryItem = (
     <div className="row">
         <div className="col-10">
             <div className="wd-fg-color-lightgray">{post.topic}</div>
-            <b>{post.userName}</b>
-            <i className="fas fa-circle-check"></i>
+            <b>{post.userName} </b>
+            <i class="bi bi-check-circle-fill"></i>
             <span className="wd-fg-color-lightgray"> - {post.time}</span><br/>
             <b>
                 {post.title}
