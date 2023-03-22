@@ -1,5 +1,6 @@
 import React from "react";
-import { updateLikes } from "./tuits-reducer";
+// import { updateLikes } from "./tuits-reducer";
+import { updateTuitThunk } from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 const TuitStats = (
     {tuit = {
@@ -20,7 +21,12 @@ const TuitStats = (
 ) => {
     const dispatch = useDispatch(); //get dispatcher to invoke reducer functions
     const updateLikesHandler = (tuit) => {
-        dispatch(updateLikes(tuit))
+        // dispatch(updateLikes(tuit))
+        dispatch(updateTuitThunk({...tuit, liked: !tuit.liked, likes: `${!tuit.liked ? Number(tuit.likes) + 1 : tuit.likes - 1}`}))
+    }
+    const updateDislikesHandler = (tuit) => {
+        // dispatch(updateLikes(tuit))
+        dispatch(updateTuitThunk({...tuit, disliked: !tuit.disliked, dislikes: `${!tuit.disliked ? Number(tuit.dislikes) + 1 : tuit.dislikes - 1}`}))
     }
     return( 
         <div className="row ps-1 pt-3">
@@ -28,16 +34,21 @@ const TuitStats = (
                 <i class="bi bi-chat"></i>
                 <span className="ps-1">{tuit.replies}</span>
             </div>
-            <div className="col ps-5">
+            <div className="col ps-3">
                 <i class="bi bi-arrow-repeat"></i>
                 <span className="ps-1">{tuit.retuits}</span>
             </div>
-            <div className="col ps-5">
+            <div className="col ps-3">
             <i onClick={() => 
             updateLikesHandler(tuit)} class={`${tuit.liked ? 'bi bi-heart-fill wd-pink' : 'bi bi-heart'}`}></i>
                 <span className="ps-1">{tuit.likes}</span>
             </div>
-            <div className="col ps-5">
+            <div className="col ps-3">
+            <i onClick={() => 
+            updateDislikesHandler(tuit)} class={`${tuit.disliked ? 'bi bi-hand-thumbs-down-fill' : 'bi bi-hand-thumbs-down'}`}></i>
+                <span className="ps-1">{tuit.dislikes}</span>
+            </div>
+            <div className="col ps-3">
                 <i class="bi bi-share"></i>
             </div>
         </div>
