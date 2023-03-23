@@ -15,9 +15,9 @@ export const findTuits  = async () => { //async tags this function as asynchrono
     return tuits; //return tuits
 }
 
-export const deleteTuit = async (tuit) => {
+export const deleteTuit = async (tuitId) => {
     const response = await axios //send HTTP DELETE request to server
-    .delete(`${TUITS_API}/${tuit.tid}`) //append tuit's ID to URL
+    .delete(`${TUITS_API}/${tuitId}`) //append tuit's ID to URL
     return response.data //data contains response's status we'll ignore for now
 }
 
